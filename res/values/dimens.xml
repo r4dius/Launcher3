@@ -21,7 +21,7 @@
     <dimen name="dynamic_grid_page_indicator_line_height">1dp</dimen>
     <dimen name="dynamic_grid_page_indicator_land_left_nav_bar_gutter_width">0dp</dimen>
     <dimen name="dynamic_grid_page_indicator_land_right_nav_bar_gutter_width">0dp</dimen>
-    <dimen name="dynamic_grid_icon_drawable_padding">8dp</dimen>
+    <dimen name="dynamic_grid_icon_drawable_padding">0dp</dimen>
     <dimen name="dynamic_grid_overview_min_icon_zone_height">80dp</dimen>
     <dimen name="dynamic_grid_overview_max_icon_zone_height">120dp</dimen>
     <dimen name="dynamic_grid_overview_bar_item_width">80dp</dimen>
@@ -37,7 +37,7 @@
 
     <!-- Hotseat -->
     <dimen name="dynamic_grid_hotseat_top_padding">0dp</dimen>
-    <dimen name="dynamic_grid_hotseat_bottom_padding">50dp</dimen>
+    <dimen name="dynamic_grid_hotseat_bottom_padding">72dp</dimen>
     <dimen name="dynamic_grid_hotseat_size">70dp</dimen>
 
     <dimen name="dynamic_grid_hotseat_land_left_nav_bar_right_padding">0dp</dimen>
@@ -246,8 +246,8 @@
     <dimen name="smartspace_title_size">24dp</dimen>
     <dimen name="smartspace_horizontal_padding">56dp</dimen>
     <dimen name="qsb_shadow_margin">6dp</dimen>
-    <dimen name="qsb_widget_height">56dp</dimen>
-    <dimen name="qsb_hotseat_bottom_margin">-4dp</dimen>
+    <dimen name="qsb_widget_height">58dp</dimen>
+    <dimen name="qsb_hotseat_bottom_margin">6dp</dimen>
     <dimen name="qsb_hotseat_bottom_margin_hw">12dp</dimen>
     <dimen name="hotseat_qsb_scroll_shadow_blur_radius">1.5dp</dimen>
     <dimen name="hotseat_qsb_scroll_key_shadow_offset">2dp</dimen>

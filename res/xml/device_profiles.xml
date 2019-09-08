@@ -98,19 +98,19 @@
         />
 
     <profile
-        launcher:name="Taimen"
+        launcher:name="Galaxy S10e"
         launcher:minWidthDps="387"
         launcher:minHeightDps="750"
         launcher:numRows="5"
-        launcher:numColumns="5"
+        launcher:numColumns="4"
         launcher:numFolderRows="4"
         launcher:numFolderColumns="4"
         launcher:minAllAppsPredictionColumns="4"
-        launcher:numHotseatIcons="5"
-        launcher:iconSize="54"
-        launcher:landscapeIconSize="52"
+        launcher:numHotseatIcons="4"
+        launcher:iconSize="72"
+        launcher:landscapeIconSize="70"
         launcher:iconTextSize="13.0"
-        launcher:defaultLayoutId="@xml/default_workspace_5x5"
+        launcher:defaultLayoutId="@xml/default_workspace_4x5"
         />
 
     <profile

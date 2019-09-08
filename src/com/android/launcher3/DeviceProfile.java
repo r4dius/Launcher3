@@ -359,7 +359,7 @@ public class DeviceProfile {
         iconDrawablePaddingPx = (int) (iconDrawablePaddingOriginalPx * scale);
 
         cellHeightPx = iconSizePx + iconDrawablePaddingPx
-                + Utilities.calculateTextHeight(iconTextSizePx);
+                + Utilities.calculateTextHeight(iconTextSizePx) + 28;
         int cellYPadding = (getCellSize().y - cellHeightPx) / 2;
         if (iconDrawablePaddingPx > cellYPadding && !isVerticalBarLayout()
                 && !inMultiWindowMode()) {
