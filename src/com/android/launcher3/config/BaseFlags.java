@@ -31,7 +31,7 @@ abstract class BaseFlags {
     public static final boolean IS_DOGFOOD_BUILD = false;
 
     // Custom flags go below this
-    public static boolean LAUNCHER3_DISABLE_ICON_NORMALIZATION = false;
+    public static boolean LAUNCHER3_DISABLE_ICON_NORMALIZATION = true;
     public static boolean LAUNCHER3_LEGACY_FOLDER_ICON = false;
     public static boolean LAUNCHER3_DISABLE_PINCH_TO_OVERVIEW = false;
     public static boolean LAUNCHER3_NEW_FOLDER_ANIMATION = true;
@@ -61,7 +61,7 @@ abstract class BaseFlags {
     // When enabled, icons not supporting {@link AdaptiveIconDrawable} will be wrapped in {@link FixedScaleDrawable}.
     public static final boolean LEGACY_ICON_TREATMENT = true;
     // When enabled, adaptive icons would have shadows baked when being stored to icon cache.
-    public static final boolean ADAPTIVE_ICON_SHADOW = true;
+    public static final boolean ADAPTIVE_ICON_SHADOW = false;
     // When enabled, app discovery will be enabled if service is implemented
     public static final boolean DISCOVERY_ENABLED = false;
     // When enabled, the qsb will be moved to the hotseat.
