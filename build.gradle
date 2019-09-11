@@ -6,7 +6,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.0'
+        classpath 'com.android.tools.build:gradle:3.5.0'
         classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.6'
     }
 }
@@ -15,7 +15,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.protobuf'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 24
@@ -113,7 +113,7 @@ repositories {
     google()
 }
 
-final String SUPPORT_LIBS_VERSION = '27.1.1'
+final String SUPPORT_LIBS_VERSION = '28.0.0'
 dependencies {
     implementation "com.android.support:support-v4:${SUPPORT_LIBS_VERSION}"
     implementation "com.android.support:support-dynamic-animation:${SUPPORT_LIBS_VERSION}"
@@ -122,7 +122,7 @@ dependencies {
     implementation 'com.google.protobuf.nano:protobuf-javanano:3.2.0rc2'
 
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation "org.mockito:mockito-core:1.10.19"
+    androidTestImplementation 'org.mockito:mockito-core:3.0.0'
     androidTestImplementation 'com.google.dexmaker:dexmaker:1.2'
     androidTestImplementation 'com.google.dexmaker:dexmaker-mockito:1.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
