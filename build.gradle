@@ -133,7 +133,7 @@ dependencies {
 protobuf {
     // Configure the protoc executable
     protoc {
-        artifact = 'com.google.protobuf:protoc:3.0.0-alpha-3'
+        artifact = 'com.google.protobuf:protoc:3.5.1'
 
         generateProtoTasks {
             all().each { task ->

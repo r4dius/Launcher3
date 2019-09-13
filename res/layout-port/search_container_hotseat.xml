@@ -19,6 +19,8 @@
     android:id="@id/search_container_hotseat"
     android:layout_width="fill_parent"
     android:layout_height="@dimen/qsb_widget_height"
+    android:layout_marginLeft="-4dp"
+    android:layout_marginRight="-4dp"
     android:layout_gravity="bottom|center"
     android:background="@drawable/bg_qsb_click_feedback"
     android:contentDescription="@string/label_search" />

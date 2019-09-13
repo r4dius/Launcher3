@@ -23,6 +23,7 @@
     android:layout_centerHorizontal="true"
     android:layout_gravity="center|top"
     android:layout_marginTop="-20dp"
+    android:layout_marginLeft="-4dp"
     android:background="@drawable/bg_qsb_click_feedback"
     android:contentDescription="@string/label_search"
     android:translationY="30dp">
